@@ -25,39 +25,65 @@ The AI agent understands the request, uses the appropriate SQL tools, interacts 
 
 ---
 
-## 🏗️ Architecture
+## 🔄 Architecture
 
 ```text
-                    User
-                      │
-                      ▼
-              Streamlit Interface
-                      │
-                      ▼
-                LangChain Agent
-                      │
-                      ▼
-                  Groq LLM
-                      │
-                      ▼
-              SQL Database Tools
-                      │
-                      ▼
-                SQLite Database
-                      │
-                      ▼
-                  tasks Table
-...
+User
+  │
+  ▼
+Streamlit Interface
+  │
+  ▼
+LangChain Agent
+  │
+  ▼
+Groq LLM
+  │
+  ▼
+SQL Database Tools
+  │
+  ▼
+SQLite Database
+  │
+  ▼
+tasks Table
+```
 
----
+## 🚀 Run Locally
 
-#### 🛜run locally -
-```text
-Backend -
-env\Scripts\activate (for environment activate command)
-cd 'folder'
-python 'python file name'
-...
+### 1. Create Virtual Environment
+
+```bash
+python -m venv env
+```
+
+### 2. Activate Virtual Environment
+
+Windows:
+
+```bash
+env\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Add API Key
+
+Create a `.env` file:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+```
+
+### 5. Run the Application
+
+```bash
+streamlit run SQL_agent.py
+```
  ---
 
 Frontend -
