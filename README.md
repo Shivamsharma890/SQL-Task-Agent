@@ -47,3 +47,17 @@ The AI agent understands the request, uses the appropriate SQL tools, interacts 
                       │
                       ▼
                   tasks Table
+
+---
+
+#### 🛜for Local Connection -
+```text
+Backend -
+env\Scripts\activate (for environment activate command)
+cd 'folder'
+python 'python file name'
+
+ ---
+
+Frontend -
+streamlit run 'python file name'
