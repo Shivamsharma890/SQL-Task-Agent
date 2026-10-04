@@ -84,9 +84,3 @@ GROQ_API_KEY=your_groq_api_key
 ```bash
 streamlit run SQL_agent.py
 ```
- ---
-
-Frontend -
-```text
-streamlit run 'python file name'
-...
