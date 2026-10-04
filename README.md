@@ -1,4 +1,4 @@
-# 🤖 AI SQL Task Agent
+## 🤖 AI SQL Task Agent
 
 An AI-powered task management application that allows users to manage tasks using natural language. The application uses a LangChain-powered SQL agent with a Groq LLM to interact with a SQLite database and perform task-related CRUD operations.
 
