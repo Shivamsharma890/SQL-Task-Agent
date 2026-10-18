@@ -2,6 +2,8 @@
 
 An AI-powered task management application that allows users to manage tasks using natural language. The application uses a LangChain-powered SQL agent with a Groq LLM to interact with a SQLite database and perform task-related CRUD operations.
 
+---
+
 Instead of writing SQL queries manually, users can simply give instructions such as:
 
 > "Create a task to learn LangChain."
